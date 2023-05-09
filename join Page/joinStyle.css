@@ -1,0 +1,365 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    /* border: solid rgb(173, 173, 173) 1px; */
+    width: 75vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .fixed-head{
+     border: solid 1px gold; 
+   
+} */
+.fixed-head h1{
+    font-size: 40px;
+    text-align: center;
+}
+.fixed-head p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(59, 59, 59);
+    padding: 5px;
+}
+#process{
+    height: 15px;
+    margin-top: 20px;
+    width: 5%;
+    background-color: rgb(106, 106, 238);
+    transition: all 0.8s;
+}
+.processComplate{
+    position: relative;
+    top: -15px;
+    height: 15px;
+    width: 100%;
+    z-index:-2;
+    background-color: rgba(182, 182, 182, 0.436);
+}
+
+.fixed-footer{
+    width: 100%;
+    height: 18%;
+    /* border: solid rgb(0, 4, 255) 1px; */
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fixed-footer .next-btn{
+    width: 173px;
+    height: 56px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(83, 83, 230) ;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.fixed-footer .next-btn-hover{
+    display: none;
+    transition: all 1s;
+}
+.imprtant-info{
+    background-color: rgb(250, 215, 215);
+    margin-bottom: 20px;
+}
+.imprtant-info p{
+    color: rgb(152, 8, 8);
+    font-size: 20px;
+    text-align: center;
+    border: solid 1px black;
+    padding: 2px;
+    width: 350px;
+}
+.hiden{
+    display: none;
+}
+.shwen{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: blue;
+    font-weight: bold;
+}
+
+
+/* ==================== */
+.register{
+    /* border: solid green 1px; */
+    height: 60%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accountType{
+    /* border: solid rgb(128, 0, 77) 1px; */
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accountType h2{
+    color: rgb(76, 76, 158);
+}
+.accountType .TypeBox{
+    /* border: solid red 1px; */
+    width: 90%;
+    height:100% ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.accountType .TypeBox div{
+    width: 35%;
+    height: 90%;
+    border: solid 2px black;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+
+.accountType .TypeBox div:hover{
+    background-color: rgb(239, 239, 239);
+    transition: all .5s;
+}
+
+.brokerType img{
+    width: 75%;
+    height: auto;
+}
+.normalPerson img{
+    width: 75%;
+    height: auto;
+}
+
+/* Full Your Name */
+.inputsBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.inputsBox label{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    width: 200px;
+    color: rgb(65, 65, 65);
+    transition: all 0.5s;
+}
+.inputsBox label:nth-child(3){
+    margin-top: 60px;
+}
+.inputsBox input{
+    width: 500px;
+    height: 40px;
+    border-left: none;
+    border-right: none;
+    border-top:none ;
+    font-size: 20px;
+}
+.inputsBox input:focus{
+    outline: none;
+}
+
+.inputsBox p{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(133, 133, 133);
+}
+
+.inputsBox p.doneCondition{
+    color: green;
+}
+.inputsBox p.falseCondition{
+    color: red;
+}
+
+.showPassword{
+    position: relative;
+    left: 460px;
+    width: 10px;
+    top: 57px;
+    cursor: pointer;
+    color: rgb(66, 103, 112);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.uploadImageBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgLabel{
+    margin-top: 30px;
+    background-color: blueviolet;
+    color: white;
+    height: 40px;
+    margin: 20px;
+    padding-left: 15%;
+    padding-top: 5%;
+    cursor: pointer;
+}
+
+.successful-box{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(117, 117, 192);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.successful-box img{
+    width: 100px;
+    height: 100px;
+    border: solid white 2px;
+}
+.successful-box h1{
+    color: white;
+    font-size: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.successful-box button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(151, 234, 242);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-bottom:40px ;
+    border-radius: 20px;
+}
+.successful-box button:hover{
+    background-color: rgb(226, 234, 235);
+}
+.theNameContainer{
+    width: 160px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#confirmeLabel{
+    margin-top: 20px;
+}
+
+/* media quary Part */
+
+@media  (max-width: 618px) {
+    .fixed-head h1{
+        font-size: 30px;
+    }
+    .fixed-head p{
+        font-size: 15px;
+    }
+    .fixed-footer .next-btn{
+        width: 100px;
+        height: 50px;
+    }
+    .fixed-footer{
+        margin-top: 80px;
+    }
+    .accountType h2{
+        font-size: 15px;
+    }
+    .accountType .TypeBox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .accountType .TypeBox div:first-child{
+        margin-bottom: 20px;
+    }
+    .accountType .TypeBox div{
+        width: 170px;
+        height: 200px;
+    }
+    .accountType .TypeBox div{
+        font-size: 15px;
+    }
+    
+    .inputsBox{
+        width: 80vw;
+    }
+    .inputsBox input{
+        width: 100%;
+    }
+    .showPassword{
+        left: 90%;
+    }
+    .successful-box{
+        width: 300px;
+        height: 300px;
+        margin-left:-50px;
+    }
+    .successful-box h1{
+        text-align: center;
+    }
+}
+
+
+/* l'animation */
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(195, 195, 232);
+    border-top: 10px solid rgb(76, 76, 158);
+    animation: creating 1.5s infinite;
+}
+
+@keyframes creating {
+    0%{
+        transform: translate(-50% , -50%) rotate(0deg) ;
+    }
+    100%{
+        transform: translate(-50% , -50%) rotate(360deg) ;
+    }
+}

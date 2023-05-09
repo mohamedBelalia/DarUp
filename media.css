@@ -1,0 +1,226 @@
+/*  media nav*/
+@media  (max-width: 1224px) {
+  .section-4{
+    height: calc(100vh + 15vh);
+    }
+    .conter{
+      margin: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: start;
+    }
+    .conter .parent-text{
+      width: 100%;
+      height: 30vh; 
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+   
+    .upBtn{
+      left: 84%;
+  }
+    .conter .parent-text div{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .conter .parent-text h1{
+      text-align: center;
+      font-size: 40px;
+    }
+    .conter .parent-text p{
+      font-size: 23px;
+      letter-spacing: 7px;
+      text-align: center;
+      
+    }
+    .conter .parent-text span{
+      margin-bottom: 0;
+      display: none;
+    }
+    
+    .conter .parent-div{
+       width: 100%;
+       display: flex;
+       margin-top: 20px;
+       justify-content: space-between;
+       flex-direction: row;
+       flex-wrap: wrap;
+       
+    }
+    .conter .parent-div div{
+      margin: 0;
+      margin-bottom: 20px;
+      display: flex;
+      height: 50%;
+      align-items: center;
+      width: 47%;
+      
+    }
+    .conter .parent-text div{
+      margin: auto;
+    }
+    .conter .parent-div div p{
+      text-align: center;
+      font-size: 14px;
+    }
+}
+@media  (max-width: 768px) {
+
+
+    /*---------------------------------- back video ----------------------------------*/
+    .backVi .content h1{
+      font-size: 45px;
+   }
+   .backVi .content{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .backVi .content div{
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+   }
+   /*---------------------------------- Section 1 ----------------------------------*/
+  
+
+   .section-1 h1{
+    font-size: 25px;
+   }
+   
+   /* .imgs-div{
+  
+   } */
+   .imgs-div .content-imgs {
+    width: 300px;
+    
+    margin: auto;
+
+   }
+   
+   .imgs-div .content-imgs div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   }
+   .imgs-div .content-imgs h2{
+    text-align: center;
+   }
+   .imgs-div .content-imgs p{
+    text-align: center;
+   }
+   .direc{
+    margin:auto;
+    width: 150px;
+    height: 60px;
+    margin-top: -40px;
+}
+
+/* ------------------------------- Section 2 ---------------------------------- */
+
+.section-2 h1{
+  font-size: 25px;
+}
+.section-2 .pics{
+  justify-content: center;
+}
+
+/* ------------------------------- Section 3 ---------------------------------- */
+.section-3 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.section-3 h1{
+  font-size: 25px;
+}
+.section-3 .container3{
+  flex-direction: column-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-3 .container3 .titles{
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+.section-3 .container3 .titles p{
+  font-size: 30px;
+  text-align: center;
+}
+.section-3 .container3 .titles span{
+  width: 0px;
+  height: 4px;
+  background-color: black;
+  transition: 0.5s;
+}
+.section-3 .container3 .images{
+  width: 100%;
+}
+.section-3 .container3 img{
+  width: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-right: 0px; */
+  
+  
+} 
+
+.container3{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* ------------------------------- Section 4 ---------------------------------- */
+
+
+footer{
+  height: 120vh;
+}
+footer .ctr{
+  margin-top: 0px;
+}
+footer .first-Part{
+  
+  display: flex;
+  flex-flow: column;
+}
+.foot-div1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.foot-div1 img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.foot-margen{
+  margin: 10px;
+}
+
+footer .ctr .icons a{
+  margin-left: 10px;
+}
+
+}
+
+@media  (min-width: 770px){
+  nav .spans{
+    display: none;
+  }
+}
+
+
+
